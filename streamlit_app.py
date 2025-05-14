@@ -28,7 +28,7 @@ option1 = st.multiselect(
 
 st.write("")
 
-st.write('What scenarios do you want TA GPT to help with?')
+st.write('What challenges do you want TA GPT to help with?')
 
 Scenario_TTF = st.checkbox("Time to Fill")
 Scenario_Difficulty = st.checkbox("Purple Squirrel")
