@@ -16,24 +16,24 @@ job_step = st.sidebar.select_slider(
 
 st.sidebar.write("")
 
-option = st.selectbox(
+option = st.sidebar.selectbox(
     'What do you want to compare it to?',
     ('Rejected/Declined','Apply','Reviewed','Screen','Interview','Offer','Ready for Hire'))
 
-st.write("")
+st.sidebar.write("")
 
-option1 = st.multiselect(
+option1 = st.sidebar.multiselect(
     'What Business Units?',
     ['Finance','Marketing','HR','Operations','Product','Sales'])
 
-st.write("")
+st.sidebar.write("")
 
-st.write('What challenges do you want TA GPT to help with?')
+st.sidebar.write('What challenges do you want TA GPT to help with?')
 
-Scenario_TTF = st.checkbox("Time to Fill")
-Scenario_Difficulty = st.checkbox("Location")
-Scenario_Conversion = st.checkbox("Conversion")
-Scenario_Quantity = st.checkbox("Compensation")
+Scenario_TTF = st.sidebar.checkbox("Time to Fill")
+Scenario_Difficulty = st.sidebar.checkbox("Location")
+Scenario_Conversion = st.sidebar.checkbox("Conversion")
+Scenario_Quantity = st.sidebar.checkbox("Compensation")
 
 st.write("Segmented Trending by ", job_step)
 chart_data = pd.DataFrame(
