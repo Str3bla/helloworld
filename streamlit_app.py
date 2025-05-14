@@ -16,7 +16,7 @@ st.subheader('Range slider')
 
 values = st.slider(
      'Select a range of values',
-     -50, 100.0, (-12, 33.6543210))
+     0, 100.0, (-12, 33))
 st.write('Values:', values)
 
 # Example 3
