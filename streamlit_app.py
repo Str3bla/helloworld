@@ -15,8 +15,8 @@ job_step = st.select_slider(
 )
 
 option = st.selectbox(
-    'What is your favorite Job Step?',
-    ('Apply','Reviewed','Screen','Interview','Offer','Ready for Hire'))
+    'What do you want to compare it to?',
+    ('Rejected/Declined','Apply','Reviewed','Screen','Interview','Offer','Ready for Hire'))
 
 option1 = st.multiselect(
     'What Business Units?',
