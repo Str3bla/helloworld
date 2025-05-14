@@ -14,10 +14,10 @@ job_step = st.select_slider(
     ],
 )
 
-st.header('st.selectbox')
-
 option = st.selectbox(
-    'What is your favorite Job Step?',
+    '
+    What is your favorite Job Step?
+',
     ('Apply','Reviewed','Screen','Interview','Offer','Ready for Hire'))
 
 st.write('Your favorite job step is ', option)
