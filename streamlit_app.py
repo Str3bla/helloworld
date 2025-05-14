@@ -15,13 +15,8 @@ job_step = st.select_slider(
 )
 
 option = st.selectbox(
-    '
-    What is your favorite Job Step?
-',
+    'What is your favorite Job Step?',
     ('Apply','Reviewed','Screen','Interview','Offer','Ready for Hire'))
-
-st.write('Your favorite job step is ', option)
-
 
 st.write("Segmented Trending by ", job_step)
 
