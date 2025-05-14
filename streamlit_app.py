@@ -18,12 +18,12 @@ option = st.selectbox(
     'What is your favorite Job Step?',
     ('Apply','Reviewed','Screen','Interview','Offer','Ready for Hire'))
 
-options = st.multiselect(
+options1 = st.multiselect(
      'What Business Units do you want to analyze',
      ['Finance', 'Markeing', 'HR', 'Operations'],
      ['Product', 'Sales'])
 
-st.write('You selected:', options)
+st.write('You selected:', options1)
 
 st.write("Segmented Trending by ", job_step)
 
