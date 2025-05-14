@@ -31,7 +31,7 @@ st.write("")
 st.write('What challenges do you want TA GPT to help with?')
 
 Scenario_TTF = st.checkbox("Time to Fill")
-Scenario_Difficulty = st.checkbox("Purple Squirrel")
+Scenario_Difficulty = st.checkbox("Location")
 Scenario_Conversion = st.checkbox("Conversion")
 Scenario_Quantity = st.checkbox("Compensation")
 
