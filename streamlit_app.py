@@ -1,7 +1,7 @@
 import streamlit as st
 
 job_step = st.select_slider(
-    "Select a step of the applicant process",
+    "Select a step in the applicant process to ANALYZE",
     options=[
         "Apply",
         "Reviewed",
@@ -11,4 +11,3 @@ job_step = st.select_slider(
         "Ready for Hire",
     ],
 )
-st.write("Selected Job Step:", job_step)
