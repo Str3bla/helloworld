@@ -18,6 +18,10 @@ option = st.selectbox(
     'What is your favorite Job Step?',
     ('Apply','Reviewed','Screen','Interview','Offer','Ready for Hire'))
 
+option1 = st.multiselect(
+    'What is your favorite Job Step?',
+    ['Apply','Reviewed','Screen','Interview','Offer','Ready for Hire'])
+
 st.write("Segmented Trending by ", job_step)
 
 chart_data = pd.DataFrame(
