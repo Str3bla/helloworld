@@ -19,9 +19,11 @@ option = st.selectbox(
     ('Apply','Reviewed','Screen','Interview','Offer','Ready for Hire'))
 
 options = st.multiselect(
-     'What Business Units do you want to analuze',
+     'What Business Units do you want to analyze',
      ['Finance', 'Markeing', 'HR', 'Operations'],
      ['Product', 'Sales'])
+
+st.write('You selected:', options)
 
 st.write("Segmented Trending by ", job_step)
 
