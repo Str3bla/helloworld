@@ -28,8 +28,14 @@ option1 = st.multiselect(
 
 st.write("")
 
-st.write("Segmented Trending by ", job_step)
+st.write('What scenarios do you want TA GPT to help with?')
 
+Scenario_TTF = st.checkbox("Time to Fill")
+Scenario_Difficulty = st.checkbox("Purple Squirrel")
+Scenario_Quality = st.checkbox("Quality")
+Scenario_Quantity = st.checkbox("Quantity")
+
+st.write("Segmented Trending by ", job_step)
 chart_data = pd.DataFrame(
      np.random.randn(20, 3),
      columns=['a', 'b', 'c'])
