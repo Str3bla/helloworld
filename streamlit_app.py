@@ -14,19 +14,19 @@ job_step = st.select_slider(
     ],
 )
 
-st.write(" ")
+st.markdown("<br>")
 
 option = st.selectbox(
     'What do you want to compare it to?',
     ('Rejected/Declined','Apply','Reviewed','Screen','Interview','Offer','Ready for Hire'))
 
-st.write(" ")
+st.markdown("<br>")
 
 option1 = st.multiselect(
     'What Business Units?',
     ['Finance','Marketing','HR','Operations','Product','Sales'])
 
-st.write(" ")
+st.markdown("<br>")
 
 st.write("Segmented Trending by ", job_step)
 
