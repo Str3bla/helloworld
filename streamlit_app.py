@@ -32,8 +32,8 @@ st.write('What scenarios do you want TA GPT to help with?')
 
 Scenario_TTF = st.checkbox("Time to Fill")
 Scenario_Difficulty = st.checkbox("Purple Squirrel")
-Scenario_Quality = st.checkbox("Quality")
-Scenario_Quantity = st.checkbox("Quantity")
+Scenario_Conversion = st.checkbox("Conversion")
+Scenario_Quantity = st.checkbox("Compensation")
 
 st.write("Segmented Trending by ", job_step)
 chart_data = pd.DataFrame(
