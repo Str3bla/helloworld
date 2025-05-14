@@ -1,15 +1,14 @@
 import streamlit as st
 
-color = st.select_slider(
-    "Select a color of the rainbow",
+job_step = st.select_slider(
+    "Select a step of the applicant process",
     options=[
-        "red",
-        "orange",
-        "yellow",
-        "green",
-        "blue",
-        "indigo",
-        "violet",
+        "Apply",
+        "Reviewed",
+        "Screen",
+        "Interview",
+        "Offer",
+        "Ready for Hire",
     ],
 )
-st.write("My favorite color is", color)
+st.write("Selected Job Step:", job_step)
