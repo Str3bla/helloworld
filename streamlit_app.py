@@ -17,7 +17,7 @@ job_step = st.select_slider(
 st.write("Segmented Trending by ", job_step)
 
 chart_data = pd.DataFrame(
-     np.random.randn(7, 1),
+     np.random.randn(20, 3),
      columns=['a', 'b', 'c'])
 
 st.line_chart(chart_data)
