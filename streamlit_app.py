@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-job_step = st.select_slider(
+job_step = st.sidebar.select_slider(
     "Select a step in the applicant process to ANALYZE",
     options=[
         "Apply",
