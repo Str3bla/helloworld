@@ -14,7 +14,7 @@ job_step = st.select_slider(
     ],
 )
 
-st.header("Segmented Trending by ", select_slider)
+st.header("Segmented Trending by ", st.write(job_step))
 
 chart_data = pd.DataFrame(
      np.random.randn(20, 3),
