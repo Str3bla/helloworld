@@ -72,6 +72,3 @@ font="monospace"
 st.write("")
 st.write("")
 st.write("")
-
-st.title('st.secrets')
-st.write(st.secrets['message'])
